@@ -1,0 +1,185 @@
+// layout
+
+#cover {
+  background: url(../images/header.jpg) center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #cover-content {
+
+    width: 100%;
+    text-align: center;
+
+    h1 {
+      display: inline-block;
+      color: white;
+      width: 100%;
+      font-family: alex-brush, cursive;
+      font-size: 65px;
+
+      span {
+        width: 100%;
+        display: inline-block;
+      }
+
+    }
+  }
+
+}
+
+/*
+@media only screen and (min-width: 768px) {
+  #cover {
+    background-attachment: fixed;
+  }
+}
+*/
+
+.container {
+  font-size: 13px;
+  margin: 0 auto;
+  width: 100%;
+
+  .content {
+    margin: 35px 0;
+
+    h3 {
+      font-size: 1.5em;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+  }
+
+  .content-alt {
+    margin: 35px 0 0;
+  }
+
+  .specifics {
+    margin-top: 20px;
+  }
+
+  .specifics p {
+    font-size: 1.3em;
+  }
+
+  .ribbon {
+    width: 350px;
+  }
+
+  .time {
+    font-size: 1.3em;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .church {
+    border: 3px solid #4f4f4f;
+    border-radius: 10px;
+  }
+
+  .information {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 15px;
+
+    p {
+      width: 100%;
+      margin: 10px 0 10px 0;
+    }
+
+    .btn-registry,
+    .btn-lodging {
+      width: 150px;
+      padding: 20px;
+      line-height: 20px;
+      color: white;
+      border-radius: 10px;
+      display: inline-block;
+
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+  }
+
+  .rsvp {
+    padding: 0 15px;
+  }
+
+  .photos {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 15px;
+  }
+
+}
+
+.hr {
+  width: 300px;
+}
+
+.couple {
+  margin: 0 auto;
+
+  .fiance {
+    display: inline-block;
+    margin: 20px;
+    width: 220px;
+  }
+
+  figcaption {
+    font-family: alex-brush, cursive;
+    font-size: 2.3em;
+  }
+}
+
+.btn-submit {
+  width: 150px;
+  height: 60px;
+  padding: 20px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  display: inline-block;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+footer {
+  text-align: left;
+  height: 70px;
+  width: 100%;
+  background: #323232;
+  display: table;
+  color: rgba(255, 255, 255, 0.7);
+
+  p{
+    font-weight: 700;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  span {
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+}
