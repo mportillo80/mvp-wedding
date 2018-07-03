@@ -5,17 +5,14 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   #cover-content {
-
     width: 100%;
     text-align: center;
-
     h1 {
       display: inline-block;
       color: white;
@@ -27,7 +24,6 @@
         width: 100%;
         display: inline-block;
       }
-
     }
   }
 
@@ -100,16 +96,19 @@
 
     .btn-registry,
     .btn-lodging {
-      width: 150px;
-      padding: 20px;
-      line-height: 20px;
-      color: white;
+      background-color: #6b6891;
       border-radius: 10px;
-      display: inline-block;
-
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    }
+      color: white;
+      display: inline-block;
+      line-height: 20px;
+      padding: 20px;
+      width: 150px;
 
+      &:hover {
+        background-color: #4f4d6a;
+      }
+    }
   }
 
   .rsvp {
@@ -144,6 +143,7 @@
 }
 
 .btn-submit {
+  background-color: #6b6891;
   width: 150px;
   height: 60px;
   padding: 20px;
@@ -159,6 +159,10 @@
   font-weight: 400;
   outline: none;
   -webkit-appearance: none;
+
+  &:hover {
+    background-color: #4f4d6a;
+  }
 }
 
 footer {
@@ -169,7 +173,7 @@ footer {
   display: table;
   color: rgba(255, 255, 255, 0.7);
 
-  p{
+  p {
     font-weight: 700;
     text-transform: uppercase;
     display: table-cell;

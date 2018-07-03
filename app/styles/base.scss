@@ -23,9 +23,11 @@ header, hgroup, menu, nav, section, summary, hgroup {
   border: 0;
 }
 
+a,
 a:active,
 a:hover {
   outline: 0;
+  text-decoration: none;
 }
 
 @-webkit-viewport {
