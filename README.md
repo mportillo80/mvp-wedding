@@ -4,7 +4,7 @@ Back in 2015, I set up a small website to inform friends and family about my the
 
 ## Screenshot
 
-[[https://github.com/mportillo80/mvp-wedding/blob/master/app/images/screenshot.png]]
+![screenshot](https://github.com/mportillo80/mvp-wedding/blob/master/app/images/screenshot.png)
 
 ## Issues
 
